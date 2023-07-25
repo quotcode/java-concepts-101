@@ -1,3 +1,5 @@
+package Queue;
+
 import java.util.Comparator;
 
 public class CustomIntegerComparator implements Comparator<Integer> {

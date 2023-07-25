@@ -1,3 +1,5 @@
+package Queue;
+
 import java.util.PriorityQueue;
 
 public class PriorityQueueImplementation {
@@ -47,7 +49,7 @@ public class PriorityQueueImplementation {
         pq1.offer(700);
         pq1.offer(190);
         pq1.offer(198);
-        System.out.println("We see that we have descending order of elements stored, following the Total Ordering of the CustomIntegerComparator");
+        System.out.println("We see that we have descending order of elements stored, following the Total Ordering of the Queue.CustomIntegerComparator");
         while (!pq1.isEmpty()) {
 
             System.out.println(pq1.poll());
