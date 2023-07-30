@@ -7,7 +7,7 @@ import java.util.List;
 
 public class LinkedHashSetImplementation {
     /* LinkedHashSet: it extends the HashSet class.
-    *  LinkedHashSet maintains the order of insertion of items
+    *  LinkedHashSet maintains the order of insertion of items but it does not sorts the Set
     * as it implements LinkedList variant of set so whatever will be added or removed will have the order maintained
     * Like HashSet, LinkedHashSet also does not order by Sorting.
     * Advantage of using a LinkedHashSet is the insertion and deletion is quicker also there won't be duplicate elements.
